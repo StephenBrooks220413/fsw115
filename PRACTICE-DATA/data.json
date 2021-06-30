@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "name": "John",
+            "age": 35,
+            "employed": true,
+            "title": "developer",
+            "previous": ["supervisor", "intern"],
+            "address": {
+                "street": "1141 Main Street",
+                "city": "Los Angelos",
+                "state": "California"
+            }
+        },
+        {
+            "name": "Sara",
+            "age": 32,
+            "employed": true,
+            "title": "human resource",
+            "previous": ["supervisor", "intern"],
+            "address": {
+                "street": "1141 Main Street",
+                "city": "Los Angelos",
+                "state": "California"
+            }
+        },
+        {
+            "name": "Mike",
+            "age": 43,
+            "employed": true,
+            "title": "CEO",
+            "previous": ["supervisor", "intern"],
+            "address": {
+                "street": "1141 Main Street",
+                "city": "Los Angelos",
+                "state": "California"
+            }
+        }
+    ]
+}
