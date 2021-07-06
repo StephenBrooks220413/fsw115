@@ -9,6 +9,6 @@ obj.birth = new Date(obj1.birth);
 
 document.getElementById("info").innerHTML = obj1.name + ", " + obj1.birth;
 
-const info = {name: "john", age: 40, city: "Los Angelos"};
+const info = '{"name": "john", "age": "40", "city": "Los Angelos"}';
 const list = JSON.stringify(info);
 document.getElementById("list").innerHTML = info;
