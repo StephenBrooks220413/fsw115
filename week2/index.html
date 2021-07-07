@@ -8,26 +8,6 @@
 </head>
 <body>
     <div id="myData"></div>
-    <script>
-        fetch('people.json')//file json objects
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
-        function appendData(data) {
-            var mainContainer = document.getElementById("myData");
-            for (var i = 0; i < data.length; i++) {
-                var items = document.createElement("div");
-                items.innerHTML = 'Name: ' + data[i].results.name + ' ' + data[i].results.height
-                + ' ' + data[i].results.mass + ' ' + data[i].results.hair_color;
-                mainContainer.appendChild(div);
-            }
-        }
-    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>
