@@ -1,4 +1,4 @@
-fetch('./people.json')//file json objects
+fetch('./results.json')//file json objects
             .then(function (response) {
                 return response.json();
             })
