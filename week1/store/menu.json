@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "appetizers": [
+        "bread sticks",
+        "onion rings",
+        "chicken fries",
+        "chilli fries"
+      ],
+      "coldSandwiches": {
+        "turkey": [
+          "turkey",
+          "lettuce",
+          "cheese",
+          "bread",
+          "mayo"
+        ],
+        "chicken": [
+          "chicken",
+          "lettuce",
+          "cheese",
+          "bread",
+          "mayo"
+        ],
+        "ham": [
+          "ham",
+          "lettuce",
+          "cheese",
+          "bread",
+          "mayo"
+        ]
+      },
+      "hotSandwiches": {
+        "blt": [
+          "bacon",
+          "lettuce",
+          "tomato",
+          "bread",
+          "mayo"
+        ],
+        "chicken": [
+          "chicken",
+          "lettuce",
+          "cheese",
+          "bread",
+          "mayo"
+        ],
+        "grilledCheese": [
+          "butter",
+          "cheese",
+          "bread",
+          "mayo"
+        ]
+      },
+      "deserts": {
+        "darkSwirl": [
+          "chocolate",
+          "flour",
+          "eggs",
+          "milk",
+          "olive oil"
+        ],
+        "strawberry": [
+          "strawberries",
+          "flour",
+          "eggs",
+          "milk",
+          "olive oil"
+        ],
+        "blueberrySwirl": [
+          "blue berries",
+          "flour",
+          "eggs",
+          "milk",
+          "olive oil"
+        ]
+      },
+      "drinks": ["coke", "ice-tea", "lemonade"]
+    }
+  ]
+}
